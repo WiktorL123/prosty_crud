@@ -1,0 +1,31 @@
+.
+├── classic_pattern_tree.txt
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── com
+    │   │       └── example
+    │   │           └── prosty_crud
+    │   │               ├── ProstyCrudApplication.java
+    │   │               └── car
+    │   │                   ├── controller
+    │   │                   │   └── CarController.java
+    │   │                   ├── model
+    │   │                   │   └── Car.java
+    │   │                   ├── repository
+    │   │                   │   └── CarRepository.java
+    │   │                   └── service
+    │   │                       └── CarService.java
+    │   └── resources
+    │       └── application.properties
+    └── test
+        └── java
+            └── com
+                └── example
+                    └── prosty_crud
+                        └── ProstyCrudApplicationTests.java
+
+18 directories, 11 files
