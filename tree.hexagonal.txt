@@ -1,0 +1,56 @@
+.
+├── README.md
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── prosty_crud
+│   │   │               ├── ProstyCrudApplication.java
+│   │   │               ├── adapters
+│   │   │               │   ├── postgres
+│   │   │               │   │   ├── CarCommandAdapter.java
+│   │   │               │   │   ├── mapper
+│   │   │               │   │   │   └── ModelDomainMapper.java
+│   │   │               │   │   ├── model
+│   │   │               │   │   │   └── CarEntity.java
+│   │   │               │   │   └── repository
+│   │   │               │   │       ├── CarQueryAdapter.java
+│   │   │               │   │       └── CarRepository.java
+│   │   │               │   └── web
+│   │   │               │       ├── controller
+│   │   │               │       │   └── CarController.java
+│   │   │               │       ├── dto
+│   │   │               │       │   ├── CarResponseDto.java
+│   │   │               │       │   ├── CreateCarDto.java
+│   │   │               │       │   └── UpdateCarDto.java
+│   │   │               │       └── mapper
+│   │   │               │           └── DtoDomainMapper.java
+│   │   │               ├── application
+│   │   │               │   └── useCase
+│   │   │               │       ├── CommandUseCase.java
+│   │   │               │       └── QueryUseCase.java
+│   │   │               └── core
+│   │   │                   ├── domain
+│   │   │                   │   └── Car.java
+│   │   │                   └── port
+│   │   │                       ├── in
+│   │   │                       │   ├── ICommandPort.java
+│   │   │                       │   └── IQueryPort.java
+│   │   │                       └── out
+│   │   │                           ├── CarRepositoryCommandPort.java
+│   │   │                           └── CarRepositoryQueryPort.java
+│   │   └── resources
+│   │       └── application.properties
+│   └── test
+│       └── java
+│           └── com
+│               └── example
+│                   └── prosty_crud
+│                       └── ProstyCrudApplicationTests.java
+└── tree.hexagonal.txt
+
+29 directories, 25 files
