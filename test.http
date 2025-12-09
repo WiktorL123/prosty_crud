@@ -1,0 +1,9 @@
+POST http://localhost:8081/cars
+Content-Type: application/json
+
+
+{
+  "color": "pink",
+  "model": "amg",
+  "yearOfProduction": "2002"
+}

@@ -5,7 +5,6 @@ import com.example.prosty_crud.core.port.out.CarRepositoryCommandPort;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-@Service
 @RequiredArgsConstructor
 public class CommandUseCase implements ICommandPort {
     private final CarRepositoryCommandPort port;
@@ -22,7 +21,6 @@ public class CommandUseCase implements ICommandPort {
 
     @Override
     public Car createCar(Car car) {
-        Integer year = Integer.valueOf(car.yearOfProduction());
         var createdCar = port.save(car);
         return createdCar;
     }
